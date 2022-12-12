@@ -1,0 +1,20 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 3c754010-87c5-41ea-8be7-fd438be3418c)
+
+  (paper "A4")
+
+  (title_block
+    (title "bldc controller")
+    (date "2022-12-11")
+    (rev "1.0.0")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
