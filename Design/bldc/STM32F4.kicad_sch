@@ -4,7 +4,18 @@
 
   (paper "A4")
 
+  (title_block
+    (title "BLDC motor controller")
+    (date "2022-12-11")
+    (rev "1.0.0")
+  )
+
   (lib_symbols
   )
 
+
+  (hierarchical_label "VBatt" (shape input) (at 70.485 37.465 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 550e58e2-507d-4ac3-b198-1ee5e2d80842)
+  )
 )

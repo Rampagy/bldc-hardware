@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "BLDC motor controller")
+    (date "2022-12-11")
+    (rev "1.0.0")
+  )
+
   (lib_symbols
   )
 
