@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "STM32F4-DISCOVERY")(type "KiCad")(uri "${KIPROJECTLIB}/Libraries/STM32F4-DISCOVERY-SIMON.kicad_sym")(options "")(descr ""))
+  (lib (name "crf_1")(type "KiCad")(uri "${KIPROJECTLIB}/Libraries/crf_1.kicad_sym")(options "")(descr ""))
+  (lib (name "infineon")(type "KiCad")(uri "${KIPROJECTLIB}/Libraries/infineon.kicad_sym")(options "")(descr ""))
+)

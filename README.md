@@ -8,7 +8,7 @@ Version 6.0.9
 
 ### Setup
 
-Set Environment Variable `KILOCALLIB` to `path/to/bldc/hardware`.  This allows Kicad to find the custom schematic and footprint libraries:
+Set Kicad environment variable `KIPROJECTLIB` to where the repo is cloned.  This allows Kicad to find the custom schematic and footprint libraries:
 
 * infineon.lib
 * Interface_RS485.lib

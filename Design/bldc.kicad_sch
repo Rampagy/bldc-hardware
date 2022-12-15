@@ -1142,7 +1142,7 @@
     (property "Sheet file" "STM32F4.kicad_sch" (id 1) (at 83.82 141.5546 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (pin "VBatt" input (at 83.82 40.64 180)
+    (pin "AN_IN_VBatt" input (at 83.82 40.64 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 11305e58-9ba4-4161-8249-31b82b89c7dd)
     )
