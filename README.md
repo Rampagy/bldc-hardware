@@ -1,4 +1,4 @@
-# Open Source EXC
+# Open Source ESC
 
 This the hardware for my open source custom ESC.
 
