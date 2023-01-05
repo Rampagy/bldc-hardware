@@ -30,7 +30,17 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "multiple_net_names|1530350|609600|8d08e053-4300-4628-a087-4619542f7ccf|8d9b0a2f-81cd-4d80-885a-1bfd1c81aa39",
+      "multiple_net_names|1530350|647700|ef33b049-8d52-49f4-aedb-001547858398|80f4a54a-6dd8-4000-ab95-0057bf892d8f",
+      "multiple_net_names|1530350|685800|56415c4a-940f-4861-8327-36fc124e3227|f404a987-6d75-4d47-b4a9-9636327ea81c",
+      "multiple_net_names|1530350|723900|3fbeee57-59d2-4e5e-b8d5-74f5f57c553a|0f6f16c7-e13c-4eac-bf00-e8728c825b7f",
+      "power_pin_not_driven|1174750|457200|9c934f4c-83ae-47a7-abb1-656786c95c33|00000000-0000-0000-0000-000000000000",
+      "power_pin_not_driven|1174750|482600|05e5a4a6-cd03-476b-837d-d5710ca5e5bc|00000000-0000-0000-0000-000000000000",
+      "power_pin_not_driven|1517650|819150|50730f6f-3b65-4c8a-b601-8ae853c2e86c|00000000-0000-0000-0000-000000000000",
+      "power_pin_not_driven|1517650|996950|cf47e1dd-745d-4369-a8fa-88c240574acd|00000000-0000-0000-0000-000000000000",
+      "power_pin_not_driven|2470150|463550|ae95aecf-b9d6-4c6c-8f5d-e38fbfa6380d|00000000-0000-0000-0000-000000000000"
+    ],
     "meta": {
       "version": 0
     },
@@ -310,7 +320,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "../Documentation/",
     "spice_adjust_passive_values": false,
     "spice_external_command": "spice \"%I\"",
     "subpart_first_id": 65,
