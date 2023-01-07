@@ -698,6 +698,10 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 21b82eb0-206a-4075-ad1c-b103ffa43b24)
   )
+  (wire (pts (xy 133.35 115.57) (xy 191.77 115.57))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 24939c08-75c7-4b3e-8ebb-87bdf3e03058)
+  )
   (wire (pts (xy 31.75 66.04) (xy 48.26 66.04))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 25036127-4019-4abc-9316-d3d257f5bb2c)
@@ -1610,6 +1614,10 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 992890a3-7dba-4163-b495-0d732e5e3bcc)
     )
+    (pin "MOSFET_Temp" output (at 191.77 115.57 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid b37f5143-75e9-4514-a7d6-896dfe23675f)
+    )
   )
 
   (sheet (at 83.82 36.83) (size 49.53 125.73) (fields_autoplaced)
@@ -1737,6 +1745,10 @@
     (pin "USART_CTS" input (at 83.82 149.86 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 5ef19a69-f455-4867-aeed-dc64ffb6d26b)
+    )
+    (pin "MOSFET_Temp" input (at 133.35 115.57 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid bc36600d-6b7d-41e8-9934-cc6290a7d538)
     )
   )
 
@@ -1979,6 +1991,15 @@
     (path "/2b5af13a-5cbf-4b8a-8197-5ae9e5a22d4f/e08e6908-2a5f-4266-8dfe-37b91b11f2e9"
       (reference "#GND031") (unit 1) (value "GND") (footprint "")
     )
+    (path "/07a796a7-971a-46f8-be0a-5ed59c09f1bb/7f1a27a0-ee12-465d-82a7-694ac3a112e7"
+      (reference "#GND032") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/07a796a7-971a-46f8-be0a-5ed59c09f1bb/9fcbc6c1-ce32-4c86-9945-a29a7439aa1b"
+      (reference "#GND033") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/07a796a7-971a-46f8-be0a-5ed59c09f1bb/5524fb7f-b411-428d-8611-d6ed948eb3ee"
+      (reference "#GND034") (unit 1) (value "GND") (footprint "")
+    )
     (path "/e833bd32-6ac8-4a98-bae6-223e3ec7ed32"
       (reference "#PWR01") (unit 1) (value "+3.3V") (footprint "")
     )
@@ -2143,6 +2164,15 @@
     )
     (path "/2b5af13a-5cbf-4b8a-8197-5ae9e5a22d4f/5f748c05-0a7c-4898-9b61-46dd6de84dc7"
       (reference "C36") (unit 1) (value "4.7uF_100V") (footprint "")
+    )
+    (path "/07a796a7-971a-46f8-be0a-5ed59c09f1bb/8071e84e-81fb-4f20-bf86-f86355ce3695"
+      (reference "C37") (unit 1) (value "100n") (footprint "")
+    )
+    (path "/07a796a7-971a-46f8-be0a-5ed59c09f1bb/ef7b546d-3d75-47b7-b259-64ea705e0e28"
+      (reference "C38") (unit 1) (value "100n") (footprint "")
+    )
+    (path "/07a796a7-971a-46f8-be0a-5ed59c09f1bb/fbfaa32f-35f6-4fd8-98d3-867e6001b846"
+      (reference "C39") (unit 1) (value "100n") (footprint "")
     )
     (path "/823fda34-25a4-415d-8b6e-532f959c1c21/a8cb29ab-a205-4107-a8fa-c5105c34d4bf"
       (reference "D1") (unit 1) (value "B160-E3") (footprint "Diode_SMD:D_SMA")
